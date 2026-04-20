@@ -1,11 +1,37 @@
-.htaccess
-css.php
-rpc/
-sites/site*/admin/
-sites/site*/private/
-sites/site*/public/admin/
-sites/site*/public/setup/
-sites/site*/public/theme/
-textpattern/
-HISTORY.txt
-README.txt
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+ENV/
+
+# Django
+db.sqlite3
+staticfiles/
+media/
+*.log
+
+# Local environment
+.venv
+.env
+.env.*
+.env.example
+
+# Tooling
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Generated trade exports
+trade_data_*/
+trades.csv
+trades.json
+trades.xlsx
+trades.xml
+
+.vscode
+.gitignore
