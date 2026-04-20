@@ -1,0 +1,3 @@
+@echo off
+echo Opening shell in web container...
+docker-compose exec web bash

@@ -1,0 +1,3 @@
+@echo off
+echo Streaming container logs...
+docker-compose logs -f %1
